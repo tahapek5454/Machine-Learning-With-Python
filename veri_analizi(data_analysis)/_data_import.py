@@ -12,12 +12,12 @@ print(veriler)
 
 print('*'*50)
 
-boy = veriler['boy']
+boy = veriler['boy'] #ilgili stunu ceker
 
 print(boy)
 
 print('*'*50)
 
-boy_kilo = veriler[['boy','kilo']]
+boy_kilo = veriler[['boy','kilo']]# ilgili stunlari ceker
 
 print(boy_kilo)
