@@ -34,7 +34,7 @@ cm = confusion_matrix(y_test, y_pred)
 print(cm)
 
 
-#k-katlamali capraz dogrulama 
+#k-katlamali capraz dogrulama model degerlendirmesi
 from sklearn.model_selection import cross_val_score
 ''' 
 1. estimator : classifier (bizim durum)
